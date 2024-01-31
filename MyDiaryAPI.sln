@@ -2,6 +2,12 @@
 Microsoft Visual Studio Solution File, Format Version 12.00
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MyDiaryAPI", "MyDiaryAPI\MyDiaryAPI.csproj", "{BEA3109F-EEE8-4189-B1CC-A66DFFB7BCE0}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MyDiaryAPI.Domain", "MyDiaryAPI.Domain\MyDiaryAPI.Domain.csproj", "{EEC26364-3FA5-466E-939B-C69AD4A23432}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MyDiaryAPI.Persistance", "MyDiaryAPI.Persistance\MyDiaryAPI.Persistance.csproj", "{7080171D-C814-4B41-8F82-FCEC77208780}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MyDiaryAPI.Services", "MyDiaryAPI.Services\MyDiaryAPI.Services.csproj", "{BD7535EE-0F21-4027-97DE-4F64273B10F5}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -12,5 +18,17 @@ Global
 		{BEA3109F-EEE8-4189-B1CC-A66DFFB7BCE0}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{BEA3109F-EEE8-4189-B1CC-A66DFFB7BCE0}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{BEA3109F-EEE8-4189-B1CC-A66DFFB7BCE0}.Release|Any CPU.Build.0 = Release|Any CPU
+		{EEC26364-3FA5-466E-939B-C69AD4A23432}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{EEC26364-3FA5-466E-939B-C69AD4A23432}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{EEC26364-3FA5-466E-939B-C69AD4A23432}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{EEC26364-3FA5-466E-939B-C69AD4A23432}.Release|Any CPU.Build.0 = Release|Any CPU
+		{7080171D-C814-4B41-8F82-FCEC77208780}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{7080171D-C814-4B41-8F82-FCEC77208780}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{7080171D-C814-4B41-8F82-FCEC77208780}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{7080171D-C814-4B41-8F82-FCEC77208780}.Release|Any CPU.Build.0 = Release|Any CPU
+		{BD7535EE-0F21-4027-97DE-4F64273B10F5}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{BD7535EE-0F21-4027-97DE-4F64273B10F5}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{BD7535EE-0F21-4027-97DE-4F64273B10F5}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{BD7535EE-0F21-4027-97DE-4F64273B10F5}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 EndGlobal

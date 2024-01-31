@@ -19,4 +19,10 @@
       </Content>
     </ItemGroup>
 
+    <ItemGroup>
+      <ProjectReference Include="..\MyDiaryAPI.Domain\MyDiaryAPI.Domain.csproj" />
+      <ProjectReference Include="..\MyDiaryAPI.Persistance\MyDiaryAPI.Persistance.csproj" />
+      <ProjectReference Include="..\MyDiaryAPI.Services\MyDiaryAPI.Services.csproj" />
+    </ItemGroup>
+
 </Project>
