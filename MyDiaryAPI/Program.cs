@@ -1,9 +1,16 @@
+using MyDiaryAPI.Domain;
+using MyDiaryAPI.Persistance;
+
 var builder = WebApplication.CreateBuilder(args);
 
 // Add services to the container.
 // Learn more about configuring Swagger/OpenAPI at https://aka.ms/aspnetcore/swashbuckle
 builder.Services.AddEndpointsApiExplorer();
 builder.Services.AddSwaggerGen();
+
+builder.Services.AddDataContext();
+builder.Services.AddRepositories();
+builder.Services.AddAutomapperProfile();
 
 var app = builder.Build();
 
@@ -36,6 +43,7 @@ app.MapGet("/weatherforecast", () =>
     .WithName("GetWeatherForecast")
     .WithOpenApi();
 
+app.Migrate();
 app.Run();
 
 record WeatherForecast(DateOnly Date, int TemperatureC, string? Summary)

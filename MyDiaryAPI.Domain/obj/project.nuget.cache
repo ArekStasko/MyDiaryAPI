@@ -1,8 +1,16 @@
 {
   "version": 2,
-  "dgSpecHash": "M9gG9suqF8m9sXU9YrFbaArqC2J0QKmygj9WW53f3dA01EPtxQDiOOWelx/o8fBbDKNUFnU0yElR/AhaKfHp5w==",
+  "dgSpecHash": "mjl9SCTXu4dFdGMW3tL1GL1jiFzipguXlU4BuLRQP+wUTPIDnTQ4lw3RAuKnKl36yG4HhQbmRuxQgLzY/0lhJg==",
   "success": true,
   "projectFilePath": "C:\\Users\\areks\\sources\\repos\\MyDiaryAPI\\MyDiaryAPI.Domain\\MyDiaryAPI.Domain.csproj",
-  "expectedPackageFiles": [],
+  "expectedPackageFiles": [
+    "C:\\Users\\areks\\.nuget\\packages\\automapper\\12.0.1\\automapper.12.0.1.nupkg.sha512",
+    "C:\\Users\\areks\\.nuget\\packages\\automapper.extensions.microsoft.dependencyinjection\\12.0.1\\automapper.extensions.microsoft.dependencyinjection.12.0.1.nupkg.sha512",
+    "C:\\Users\\areks\\.nuget\\packages\\microsoft.csharp\\4.7.0\\microsoft.csharp.4.7.0.nupkg.sha512",
+    "C:\\Users\\areks\\.nuget\\packages\\microsoft.extensions.dependencyinjection.abstractions\\8.0.0\\microsoft.extensions.dependencyinjection.abstractions.8.0.0.nupkg.sha512",
+    "C:\\Users\\areks\\.nuget\\packages\\microsoft.extensions.options\\6.0.0\\microsoft.extensions.options.6.0.0.nupkg.sha512",
+    "C:\\Users\\areks\\.nuget\\packages\\microsoft.extensions.primitives\\6.0.0\\microsoft.extensions.primitives.6.0.0.nupkg.sha512",
+    "C:\\Users\\areks\\.nuget\\packages\\system.runtime.compilerservices.unsafe\\6.0.0\\system.runtime.compilerservices.unsafe.6.0.0.nupkg.sha512"
+  ],
   "logs": []
 }
