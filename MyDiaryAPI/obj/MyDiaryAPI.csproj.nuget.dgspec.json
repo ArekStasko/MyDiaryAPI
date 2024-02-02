@@ -195,6 +195,9 @@
             "projectReferences": {
               "C:\\Users\\areks\\sources\\repos\\MyDiaryAPI\\MyDiaryAPI.Domain\\MyDiaryAPI.Domain.csproj": {
                 "projectPath": "C:\\Users\\areks\\sources\\repos\\MyDiaryAPI\\MyDiaryAPI.Domain\\MyDiaryAPI.Domain.csproj"
+              },
+              "C:\\Users\\areks\\sources\\repos\\MyDiaryAPI\\MyDiaryAPI.Persistance\\MyDiaryAPI.Persistance.csproj": {
+                "projectPath": "C:\\Users\\areks\\sources\\repos\\MyDiaryAPI\\MyDiaryAPI.Persistance\\MyDiaryAPI.Persistance.csproj"
               }
             }
           }

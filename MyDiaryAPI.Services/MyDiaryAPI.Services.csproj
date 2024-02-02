@@ -8,6 +8,7 @@
 
     <ItemGroup>
       <ProjectReference Include="..\MyDiaryAPI.Domain\MyDiaryAPI.Domain.csproj" />
+      <ProjectReference Include="..\MyDiaryAPI.Persistance\MyDiaryAPI.Persistance.csproj" />
     </ItemGroup>
 
 </Project>
