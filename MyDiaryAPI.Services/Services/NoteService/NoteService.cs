@@ -26,7 +26,15 @@ public class NoteService : INoteService
 
     public Task<bool> Update(UpdateNote Note)
     {
-        throw new NotImplementedException();
+        try
+        {
+            //var result = _repository.
+        }
+        catch (Exception e)
+        {
+            Console.WriteLine(e);
+            throw;
+        }
     }
 
     public Task<List<INote>> Get()
