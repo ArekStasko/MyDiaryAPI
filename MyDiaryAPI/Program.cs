@@ -1,5 +1,6 @@
 using MyDiaryAPI.Domain;
 using MyDiaryAPI.Persistance;
+using MyDiaryAPI.Services;
 
 var builder = WebApplication.CreateBuilder(args);
 
@@ -11,6 +12,7 @@ builder.Services.AddSwaggerGen();
 builder.Services.AddDataContext();
 builder.Services.AddRepositories();
 builder.Services.AddAutomapperProfile();
+builder.Services.AddServices();
 
 var app = builder.Build();
 
