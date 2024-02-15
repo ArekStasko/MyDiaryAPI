@@ -7,7 +7,7 @@ EXPOSE 8081
 FROM mcr.microsoft.com/dotnet/sdk:8.0 AS build
 ARG BUILD_CONFIGURATION=Release
 WORKDIR /src
-COPY ["MyDiaryAPI/MyDiaryAPI.csproj", "MyDiaryAPI/"]
+COPY ["MyDiaryAPI.csproj", "MyDiaryAPI/"]
 RUN dotnet restore "MyDiaryAPI/MyDiaryAPI.csproj"
 COPY . .
 WORKDIR "/src/MyDiaryAPI"
