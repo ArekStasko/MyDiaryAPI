@@ -1,4 +1,5 @@
 using MyDiaryAPI.Domain;
+using MyDiaryAPI.Endpoints.Note;
 using MyDiaryAPI.Persistance;
 using MyDiaryAPI.Services;
 
@@ -15,6 +16,7 @@ builder.Services.AddAutomapperProfile();
 builder.Services.AddServices();
 
 var app = builder.Build();
+app.AddNoteEndpoints();
 
 // Configure the HTTP request pipeline.
 if (app.Environment.IsDevelopment())
