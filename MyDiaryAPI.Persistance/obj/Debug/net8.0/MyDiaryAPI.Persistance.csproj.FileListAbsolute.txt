@@ -1,0 +1,16 @@
+C:\Users\areks\sources\repos\MyDiaryAPI\MyDiaryAPI.Persistance\bin\Debug\net8.0\MyDiaryAPI.Persistance.deps.json
+C:\Users\areks\sources\repos\MyDiaryAPI\MyDiaryAPI.Persistance\bin\Debug\net8.0\MyDiaryAPI.Persistance.dll
+C:\Users\areks\sources\repos\MyDiaryAPI\MyDiaryAPI.Persistance\bin\Debug\net8.0\MyDiaryAPI.Persistance.pdb
+C:\Users\areks\sources\repos\MyDiaryAPI\MyDiaryAPI.Persistance\bin\Debug\net8.0\MyDiaryAPI.Domain.dll
+C:\Users\areks\sources\repos\MyDiaryAPI\MyDiaryAPI.Persistance\bin\Debug\net8.0\MyDiaryAPI.Domain.pdb
+C:\Users\areks\sources\repos\MyDiaryAPI\MyDiaryAPI.Persistance\obj\Debug\net8.0\MyDiaryAPI.Persistance.csproj.AssemblyReference.cache
+C:\Users\areks\sources\repos\MyDiaryAPI\MyDiaryAPI.Persistance\obj\Debug\net8.0\MyDiaryAPI.Persistance.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\areks\sources\repos\MyDiaryAPI\MyDiaryAPI.Persistance\obj\Debug\net8.0\MyDiaryAPI.Persistance.AssemblyInfoInputs.cache
+C:\Users\areks\sources\repos\MyDiaryAPI\MyDiaryAPI.Persistance\obj\Debug\net8.0\MyDiaryAPI.Persistance.AssemblyInfo.cs
+C:\Users\areks\sources\repos\MyDiaryAPI\MyDiaryAPI.Persistance\obj\Debug\net8.0\MyDiaryAPI.Persistance.csproj.CoreCompileInputs.cache
+C:\Users\areks\sources\repos\MyDiaryAPI\MyDiaryAPI.Persistance\obj\Debug\net8.0\MyDiaryAPI.Persistance.sourcelink.json
+C:\Users\areks\sources\repos\MyDiaryAPI\MyDiaryAPI.Persistance\obj\Debug\net8.0\MyDiaryAPI.Persistance.csproj.CopyComplete
+C:\Users\areks\sources\repos\MyDiaryAPI\MyDiaryAPI.Persistance\obj\Debug\net8.0\MyDiaryAPI.Persistance.dll
+C:\Users\areks\sources\repos\MyDiaryAPI\MyDiaryAPI.Persistance\obj\Debug\net8.0\refint\MyDiaryAPI.Persistance.dll
+C:\Users\areks\sources\repos\MyDiaryAPI\MyDiaryAPI.Persistance\obj\Debug\net8.0\MyDiaryAPI.Persistance.pdb
+C:\Users\areks\sources\repos\MyDiaryAPI\MyDiaryAPI.Persistance\obj\Debug\net8.0\ref\MyDiaryAPI.Persistance.dll

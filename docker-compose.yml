@@ -1,17 +1,17 @@
 services:
     mssql-server:
         image: mcr.microsoft.com/mssql/server:2017-latest-ubuntu
-        container_name: mssql-server
+        container_name: mydiary_mssql-server
         environment:
             ACCEPT_EULA: "Y"
             SA_PASSWORD: "Password.1234"
         ports:
             - "1433:1433"
     mydiary-api:
-        build: ./MyDiaryAPI
+        build: ./
         container_name: mydiary-api
         environment:
-            DatabaseServer: "mssql-server"
+            DatabaseServer: "mydiary_mssql-server"
             DatabasePort: "1433"
             DatabaseUser: "sa"
             DatabasePassword: "Password.1234"

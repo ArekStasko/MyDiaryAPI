@@ -1,0 +1,13 @@
+C:\Users\areks\sources\repos\MyDiaryAPI\MyDiaryAPI.Domain\bin\Debug\net8.0\MyDiaryAPI.Domain.deps.json
+C:\Users\areks\sources\repos\MyDiaryAPI\MyDiaryAPI.Domain\bin\Debug\net8.0\MyDiaryAPI.Domain.dll
+C:\Users\areks\sources\repos\MyDiaryAPI\MyDiaryAPI.Domain\bin\Debug\net8.0\MyDiaryAPI.Domain.pdb
+C:\Users\areks\sources\repos\MyDiaryAPI\MyDiaryAPI.Domain\obj\Debug\net8.0\MyDiaryAPI.Domain.csproj.AssemblyReference.cache
+C:\Users\areks\sources\repos\MyDiaryAPI\MyDiaryAPI.Domain\obj\Debug\net8.0\MyDiaryAPI.Domain.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\areks\sources\repos\MyDiaryAPI\MyDiaryAPI.Domain\obj\Debug\net8.0\MyDiaryAPI.Domain.AssemblyInfoInputs.cache
+C:\Users\areks\sources\repos\MyDiaryAPI\MyDiaryAPI.Domain\obj\Debug\net8.0\MyDiaryAPI.Domain.AssemblyInfo.cs
+C:\Users\areks\sources\repos\MyDiaryAPI\MyDiaryAPI.Domain\obj\Debug\net8.0\MyDiaryAPI.Domain.csproj.CoreCompileInputs.cache
+C:\Users\areks\sources\repos\MyDiaryAPI\MyDiaryAPI.Domain\obj\Debug\net8.0\MyDiaryAPI.Domain.sourcelink.json
+C:\Users\areks\sources\repos\MyDiaryAPI\MyDiaryAPI.Domain\obj\Debug\net8.0\MyDiaryAPI.Domain.dll
+C:\Users\areks\sources\repos\MyDiaryAPI\MyDiaryAPI.Domain\obj\Debug\net8.0\refint\MyDiaryAPI.Domain.dll
+C:\Users\areks\sources\repos\MyDiaryAPI\MyDiaryAPI.Domain\obj\Debug\net8.0\MyDiaryAPI.Domain.pdb
+C:\Users\areks\sources\repos\MyDiaryAPI\MyDiaryAPI.Domain\obj\Debug\net8.0\ref\MyDiaryAPI.Domain.dll
