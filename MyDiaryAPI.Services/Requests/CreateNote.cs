@@ -4,5 +4,7 @@ namespace MyDiaryAPI.Services.Requests;
 
 public record CreateNote
 {
-    public INote Note { get; set; }
+    public string Title { get; set; }
+    public string Content { get; set; }
+    public DateTime Date { get; set; }
 }
