@@ -2,6 +2,7 @@ using MyDiaryAPI.Domain;
 using MyDiaryAPI.Endpoints.Note;
 using MyDiaryAPI.Persistance;
 using MyDiaryAPI.Services;
+using Serilog;
 
 var builder = WebApplication.CreateBuilder(args);
 
@@ -14,6 +15,14 @@ builder.Services.AddDataContext();
 builder.Services.AddRepositories();
 builder.Services.AddAutomapperProfile();
 builder.Services.AddServices();
+
+var logger = new LoggerConfiguration()
+    .ReadFrom
+    .Configuration(builder.Configuration)
+    .CreateLogger();
+
+builder.Logging.ClearProviders();
+builder.Logging.AddSerilog(logger);
 
 var app = builder.Build();
 app.AddNoteEndpoints();

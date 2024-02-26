@@ -12,9 +12,11 @@ public class NoteService : INoteService
     private readonly IMapper _mapper;
     private readonly ILogger<INoteService> _logger;
     static Random rnd = new Random();
-    public NoteService(INotesRepository repository)
+    public NoteService(INotesRepository repository, IMapper mapper, ILogger<INoteService> logger)
     {
-        repository = _repository;
+        _repository = repository;
+        _mapper = mapper;
+        _logger = logger;
     }
     public async Task<bool> Create(CreateNote Note)
     {
