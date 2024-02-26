@@ -22,8 +22,8 @@ public class NoteService : INoteService
     {
         try
         {
-            var noteToUpdate = _mapper.Map<CreateNote, INote>(Note);
-            var result = await _repository.Create(noteToUpdate);
+            INote noteToCreate = _mapper.Map<Note>(Note);
+            var result = await _repository.Create(noteToCreate);
             return result;
         }
         catch (Exception e)
@@ -37,7 +37,7 @@ public class NoteService : INoteService
     {
         try
         {
-            var noteToUpdate = _mapper.Map<UpdateNote, INote>(Note);
+            INote noteToUpdate = _mapper.Map<Note>(Note);
             var result = await _repository.Update(noteToUpdate);
             return result;
         }

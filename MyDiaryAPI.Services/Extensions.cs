@@ -10,4 +10,6 @@ public static class Extensions
     {
         services.AddScoped<INoteService, NoteService>();
     }
+    
+    public static void AddRequestAutoMapperProfile(this IServiceCollection services) => services.AddAutoMapper(AppDomain.CurrentDomain.GetAssemblies());
 }

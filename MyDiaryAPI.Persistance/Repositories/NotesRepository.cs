@@ -22,7 +22,7 @@ public class NotesRepository : INotesRepository
     {
         try
         {
-            _mapper.Map<Note, Note>((Note)note);
+            _mapper.Map<INote>((Note)note);
             await _context.SaveChangesAsync();
             return true;
         }

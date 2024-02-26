@@ -13,6 +13,7 @@ builder.Services.AddSwaggerGen();
 
 builder.Services.AddDataContext();
 builder.Services.AddRepositories();
+builder.Services.AddRequestAutoMapperProfile();
 builder.Services.AddAutomapperProfile();
 builder.Services.AddServices();
 
