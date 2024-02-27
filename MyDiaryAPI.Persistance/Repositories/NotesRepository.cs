@@ -22,7 +22,16 @@ public class NotesRepository : INotesRepository
     {
         try
         {
-            _mapper.Map<INote>((Note)note);
+            var noteToUpdate = await _context.Notes.SingleOrDefaultAsync(n => n.Id == note.Id);
+
+            if (noteToUpdate == null)
+            {
+                _logger.LogError("There is no Note with {id} Id", note.Id);
+                return false;
+            }
+
+            if (noteToUpdate.Content != note.Content) noteToUpdate.Content = note.Content;
+            if (noteToUpdate.Title != note.Title) noteToUpdate.Title = note.Title;
             await _context.SaveChangesAsync();
             return true;
         }
